@@ -20,13 +20,14 @@
     fish_and_chips = 77
     };
     
- struct {
+ struct Reservation {
         std::string name;
         std::string time;
         int num_people;
         int max_size = 10;
     } reservation[50];
- struct {
+ 
+ struct Table {
         int table_number;        
         int max_size;
         int size;
